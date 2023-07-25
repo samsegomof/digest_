@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "user1"
+    },
+    {
+      "id": 2,
+      "username": "user2"
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": 1,
+      "source": "source1",
+      "user_id": 1
+    },
+    {
+      "id": 2,
+      "source": "source2",
+      "user_id": 1
+    },
+    {
+      "id": 3,
+      "source": "source3",
+      "user_id": 2
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "content": "post1 content",
+      "popularity": 120,
+      "subscription_id": 1
+    },
+    {
+      "id": 2,
+      "content": "post2 content",
+      "popularity": 80,
+      "subscription_id": 1
+    },
+    {
+      "id": 3,
+      "content": "post3 content",
+      "popularity": 150,
+      "subscription_id": 2
+    },
+    {
+      "id": 4,
+      "content": "post4 content",
+      "popularity": 50,
+      "subscription_id": 3
+    }
+  ],
+  "digests": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "posts": ["post1 content", "post2 content"]
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "posts": ["post3 content", "post4 content"]
+    }
+  ]
+}
